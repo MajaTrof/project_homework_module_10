@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-img-top">
+        <img src="" alt="">
+    </div>
+    <div class="card-body">
+        <h2 class="card-title"> Імя: {{name}}</h2>
+        <p>вага: {{weight}}</p>
+        <p>ріст: {{height}}</p>
+         <ul>
+        {{#each abilities}}
+       
+            <li>{{ability.name}}</li>
+        </ul>
+        {{/each}}
+    </div>
+</div>
